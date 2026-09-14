@@ -3,8 +3,22 @@ const translations = {
     'nav.about': 'عنّا',
     'nav.services': 'الخدمات',
     'nav.work': 'أعمالنا',
+    'nav.faq': 'أسئلة',
     'nav.contact': 'تواصل',
     'nav.cta': 'لنبدأ مشروعك ↗',
+    'trust.products': 'منتجًا ومنصة',
+    'trust.downloads': 'تحميل على تطبيقات تعليمية',
+    'trust.sectors': 'قطاعات نخدمها',
+    'trust.founded': 'تأسست في مصر',
+    'why.label': 'لماذا نحن',
+    'why.title': 'شريك واحد<br>من الفكرة إلى <em>الأثر.</em>',
+    'why.text': 'نبني ونُطلق ونساعد منتجك على النمو — بنفس الفريق وبنفس الوضوح.',
+    'industries.label': 'القطاعات',
+    'industries.title': 'خبرة عبر<br><em>أسواق حقيقية.</em>',
+    'industries.text': 'من التعليم والصحة إلى التجارة واللوجستيات — منتجات أُطلقت لمستخدمين فعليين.',
+    'faq.label': 'أسئلة شائعة',
+    'faq.title': 'إجابات واضحة<br>قبل أن <em>نبدأ.</em>',
+    'contact.note': 'احجز مكالمة سريعة عبر واتساب أو أرسل تفاصيل مشروعك من النموذج.',
     'hero.eyebrow': 'منتجات رقمية، بنتائج حقيقية',
     'hero.title': 'نحوّل الفكرة<br><em>إلى منتج</em> يحرّك الأعمال.',
     'hero.text': 'شركة مصرية تأسست عام 2024؛ نبني تطبيقات ومواقع مخصصة وحلول تسويق رقمي من الفكرة الأولى إلى الإطلاق والنمو.',
@@ -27,10 +41,10 @@ const translations = {
     'services.text': 'تطوير مخصص وتسويق رقمي؛ من أول سؤال وحتى الإطلاق.',
     'process.label': 'طريقتنا',
     'process.title': 'فكرة واضحة.<br><em>تسليم أقوى.</em>',
-    'products.label': 'منتجاتنا',
-    'products.title': 'نبني للمستقبل،<br>ليس للمشروع <em>فقط.</em>',
-    'products.text': 'نعمل على منتجات رقمية خاصة بنا؛ حلول طموحة نؤمن أنها تستحق أن توجد.',
-    'products.link': 'كن أول من يعرف <span>↙</span>',
+    'products.label': 'قادم قريبًا',
+    'products.title': 'نبني منتجات<br>خاصة <em>بنا أيضًا.</em>',
+    'products.text': 'إلى جانب عمل العملاء، نطوّر حلولًا رقمية داخلية. سجّل اهتمامك وكن من أوائل من يعرف عند الإطلاق.',
+    'products.link': 'أخبرنا أنك مهتم <span>↙</span>',
     'work.label': 'أعمال مختارة',
     'work.title': 'أفكار صنعت<br><em>فرقًا.</em>',
     'work.text': 'مجموعة من المنتجات والمنصات التي صنعناها مع شركاء طموحين.',
@@ -55,8 +69,22 @@ const translations = {
     'nav.about': 'About',
     'nav.services': 'Services',
     'nav.work': 'Work',
+    'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
     'nav.cta': 'Start a project ↗',
+    'trust.products': 'products & platforms',
+    'trust.downloads': 'downloads on education apps',
+    'trust.sectors': 'industries we serve',
+    'trust.founded': 'founded in Egypt',
+    'why.label': 'Why us',
+    'why.title': 'One partner<br>from idea to <em>impact.</em>',
+    'why.text': 'We build, launch, and help your product grow — with the same team and the same clarity.',
+    'industries.label': 'Industries',
+    'industries.title': 'Experience across<br><em>real markets.</em>',
+    'industries.text': 'From education and health to commerce and logistics — products shipped to real users.',
+    'faq.label': 'FAQ',
+    'faq.title': 'Clear answers<br>before we <em>start.</em>',
+    'contact.note': 'Book a quick WhatsApp call or send your project details through the form.',
     'hero.eyebrow': 'DIGITAL PRODUCTS, REAL RESULTS',
     'hero.title': 'We turn ideas<br>into products that <em>move business.</em>',
     'hero.text': 'An Egypt-based company founded in 2024. We craft bespoke mobile apps, websites, and digital marketing that take ideas from first thought to launch and growth.',
@@ -79,10 +107,10 @@ const translations = {
     'services.text': 'Custom development and digital marketing — from the first question through launch.',
     'process.label': 'Our way',
     'process.title': 'Clear thinking.<br><em>Stronger delivery.</em>',
-    'products.label': 'Our products',
-    'products.title': 'Building for the future,<br>not just <em>the brief.</em>',
-    'products.text': 'We are working on our own digital products—ambitious answers we believe deserve to exist.',
-    'products.link': 'Be the first to know <span>↙</span>',
+    'products.label': 'Coming soon',
+    'products.title': 'We also build<br>products of <em>our own.</em>',
+    'products.text': 'Alongside client work, we develop internal digital products. Share your interest and be among the first to know at launch.',
+    'products.link': 'Tell us you are interested <span>↙</span>',
     'work.label': 'Selected work',
     'work.title': 'Ideas that made<br><em>a difference.</em>',
     'work.text': 'A collection of products and platforms we made with ambitious partners.',
@@ -119,6 +147,28 @@ const steps = [
   ['02', 'Shape', 'نصمّم المسار', 'Strategy, flows, and a prototype worth testing.', 'استراتيجية وتدفقات ونموذج أولي يستحق الاختبار.'],
   ['03', 'Build', 'نبني', 'Design and engineering moving as one focused team.', 'تصميم وهندسة يتحركان كفريق واحد مركز.'],
   ['04', 'Launch & grow', 'نطلق وننمو', 'Release with confidence, learn, then make it better.', 'إطلاق واثق، تعلّم مستمر، وتحسين حقيقي.']
+];
+
+const whyPoints = [
+  ['01', 'Custom build', 'تطوير مخصص', 'Apps and websites shaped around your business — not a generic template.', 'تطبيقات ومواقع تُبنى حول عملك، لا قالب جاهز.'],
+  ['02', 'Mobile & web', 'موبايل وويب', 'Flutter and modern web stacks that feel fast and scale cleanly.', 'Flutter وويب حديث بسرعة عالية وقابلية توسع.'],
+  ['03', 'Digital marketing', 'تسويق رقمي', 'Strategy and campaigns that help people actually find what you ship.', 'استراتيجية وحملات تساعد جمهورك على اكتشاف منتجك.'],
+  ['04', 'Idea to launch', 'من الفكرة للإطلاق', 'One partner from the first brief through release and growth.', 'شريك واحد من أول موجز وحتى الإطلاق والنمو.']
+];
+
+const industries = [
+  ['✎', 'Education', 'التعليم', 'Assessment, literacy, and learning platforms with real student usage.', 'تقييم وقراءة ومنصات تعلم يستخدمها طلاب فعليًا.'],
+  ['✚', 'Health', 'الصحة', 'Remote monitoring, pharmacy, and care companions for sensitive data.', 'متابعة عن بُعد وصيدلية ورعاية ببيانات حساسة.'],
+  ['◈', 'E-commerce', 'التجارة', 'Stores for beauty, retail, and specialty goods with smooth checkout.', 'متاجر تجميل وتجزئة ومنتجات متخصصة بتجربة شراء سلسة.'],
+  ['⬡', 'Logistics', 'اللوجستيات', 'Tracking, delivery, and operations tools for moving people and goods.', 'تتبع وتوصيل وأدوات تشغيل لنقل الأشخاص والبضائع.'],
+  ['◉', 'Services', 'الخدمات', 'Marketplaces and service platforms for mentorship, pets, and more.', 'منصات خدمات وإرشاد ورعاية وأكثر.']
+];
+
+const faqs = [
+  ['faq.q1', 'faq.a1', 'How long does a typical project take?', 'كم تستغرق المشاريع عادة؟', 'Most MVPs land in 6–12 weeks depending on scope. We share a clear timeline after discovery.', 'معظم الـ MVP يكتمل خلال 6–12 أسبوعًا حسب النطاق. نشارك جدولًا واضحًا بعد مرحلة الاكتشاف.'],
+  ['faq.q2', 'faq.a2', 'Do you build mobile, web, or both?', 'هل تبنون موبايل أم ويب أم الاثنين؟', 'Both. We ship Flutter apps and modern web platforms — often together as one product.', 'الاثنين. نبني تطبيقات Flutter ومنصات ويب حديثة — وغالبًا كمنتج واحد.'],
+  ['faq.q3', 'faq.a3', 'Do you offer digital marketing too?', 'هل تقدمون تسويقًا رقميًا أيضًا؟', 'Yes. Alongside development we help with planning and campaigns to grow online presence.', 'نعم. إلى جانب التطوير نساعد في التخطيط والحملات لتنمية الحضور الرقمي.'],
+  ['faq.q4', 'faq.a4', 'How do we get started?', 'كيف نبدأ؟', 'Send a short brief via the form or WhatsApp. We reply with next steps and a discovery call.', 'أرسل موجزًا قصيرًا عبر النموذج أو واتساب. نرد بالخطوات التالية وموعد اكتشاف.']
 ];
 
 const projects = [
@@ -409,6 +459,33 @@ function renderServices() {
   ).join('');
 }
 
+function renderWhy() {
+  const el = $('#why-grid');
+  if (!el) return;
+  el.innerHTML = whyPoints.map((w) =>
+    `<article class="why-card reveal"><strong>${w[0]}</strong><h3>${lang === 'ar' ? w[2] : w[1]}</h3><p>${lang === 'ar' ? w[4] : w[3]}</p></article>`
+  ).join('');
+}
+
+function renderIndustries() {
+  const el = $('#industries-grid');
+  if (!el) return;
+  el.innerHTML = industries.map((i) =>
+    `<article class="industry-card reveal"><span class="industry-icon">${i[0]}</span><h3>${lang === 'ar' ? i[2] : i[1]}</h3><p>${lang === 'ar' ? i[4] : i[3]}</p></article>`
+  ).join('');
+}
+
+function renderFaq() {
+  const el = $('#faq-list');
+  if (!el) return;
+  el.innerHTML = faqs.map((f, idx) =>
+    `<details class="faq-item reveal" ${idx === 0 ? 'open' : ''}>
+      <summary>${lang === 'ar' ? f[3] : f[2]}</summary>
+      <p>${lang === 'ar' ? f[5] : f[4]}</p>
+    </details>`
+  ).join('');
+}
+
 function renderSteps() {
   $('#process-steps').innerHTML = steps.map((s) =>
     `<article class="step reveal"><strong>${s[0]}</strong><div><h3>${lang === 'ar' ? s[2] : s[1]}</h3><p>${lang === 'ar' ? s[4] : s[3]}</p></div><i>↗</i></article>`
@@ -483,6 +560,9 @@ function applyLanguage() {
   document.querySelectorAll('[data-ph]').forEach((el) => { el.placeholder = trans(el.dataset.ph); });
   $('#language').textContent = lang === 'ar' ? 'EN' : 'ع';
   renderServices();
+  renderWhy();
+  renderIndustries();
+  renderFaq();
   renderSteps();
   renderFilters();
   renderProjects();
