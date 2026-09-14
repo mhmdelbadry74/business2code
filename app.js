@@ -13,8 +13,8 @@ const translations = {
     'faq.label': 'أسئلة',
     'faq.title': 'قبل ما<br><em>نبدأ.</em>',
     'contact.note': 'واتساب لمكالمة سريعة، أو النموذج للتفاصيل.',
-    'hero.title': 'نحوّل الفكرة<br>إلى منتج يحرّك الأعمال.',
-    'hero.text': 'نبني تطبيقات ومواقع وتسويق رقمي — من مصر إلى المنطقة.',
+    'hero.title': 'منتجات رقمية<br>تحرّك الأعمال.',
+    'hero.text': 'تطبيقات، مواقع، وتسويق رقمي — من مصر إلى المنطقة.',
     'hero.primary': 'ابدأ مشروعك <span>↗</span>',
     'hero.secondary': 'شاهد الأعمال',
     'about.label': 'من نحن',
@@ -66,7 +66,7 @@ const translations = {
     'faq.label': 'FAQ',
     'faq.title': 'Before we<br><em>start.</em>',
     'contact.note': 'WhatsApp for a quick call, or the form for details.',
-    'hero.title': 'We turn ideas<br>into products that move business.',
+    'hero.title': 'Digital products<br>that move business.',
     'hero.text': 'Apps, websites, and digital marketing — from Egypt across the region.',
     'hero.primary': 'Start a project <span>↗</span>',
     'hero.secondary': 'See the work',
@@ -108,12 +108,12 @@ const translations = {
 };
 
 const services = [
-  ['✦', 'Product strategy', 'استراتيجية المنتج', 'Turn an opportunity into a focused product roadmap.', 'نحوّل الفرصة إلى خريطة منتج واضحة ومركزة.'],
-  ['▣', 'Mobile apps', 'تطبيقات الموبايل', 'Native-feeling iOS and Android experiences, built to perform.', 'تجارب iOS وAndroid سريعة وسلسة وقابلة للنمو.'],
-  ['⌘', 'Web platforms', 'منصات الويب', 'Fast, robust web products for customers and your team.', 'منتجات ويب قوية وسريعة لعملائك وفريقك.'],
-  ['◒', 'UI/UX design', 'تصميم UI/UX', 'Interfaces with clarity, character, and conversion in mind.', 'واجهات تجمع الوضوح والشخصية وتحفّز التحويل.'],
-  ['↗', 'Backend & cloud', 'البنية الخلفية', 'Reliable APIs, data, integrations, and infrastructure.', 'واجهات API وبيانات وتكاملات وبنية تحتية موثوقة.'],
-  ['◈', 'Digital marketing', 'التسويق الرقمي', 'Planning and campaigns that grow your online presence.', 'تخطيط وحملات تنمّي حضورك الرقمي.']
+  ['01', 'Product strategy', 'استراتيجية المنتج', 'Turn an opportunity into a focused product roadmap.', 'نحوّل الفرصة إلى خريطة منتج واضحة ومركزة.'],
+  ['02', 'Mobile apps', 'تطبيقات الموبايل', 'Native-feeling iOS and Android experiences, built to perform.', 'تجارب iOS وAndroid سريعة وسلسة وقابلة للنمو.'],
+  ['03', 'Web platforms', 'منصات الويب', 'Fast, robust web products for customers and your team.', 'منتجات ويب قوية وسريعة لعملائك وفريقك.'],
+  ['04', 'UI/UX design', 'تصميم UI/UX', 'Interfaces with clarity, character, and conversion in mind.', 'واجهات تجمع الوضوح والشخصية وتحفّز التحويل.'],
+  ['05', 'Backend & cloud', 'البنية الخلفية', 'Reliable APIs, data, integrations, and infrastructure.', 'واجهات API وبيانات وتكاملات وبنية تحتية موثوقة.'],
+  ['06', 'Digital marketing', 'التسويق الرقمي', 'Planning and campaigns that grow your online presence.', 'تخطيط وحملات تنمّي حضورك الرقمي.']
 ];
 
 const steps = [
@@ -133,7 +133,7 @@ const faqs = [
 const projects = [
   {
     en: 'Verbal Abilities', ar: 'القدرات اللفظية', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', '100K+'], featured: true, color: '#7558f7',
+    tags: ['Flutter', 'EdTech', '100K+'], featured: true, color: '#e8472a',
     image: 'assets/projects/verbal-abilities.png',
     enDesc: 'Educational assessment app with 100K+ downloads — quizzes, progress tracking, UX for young learners.',
     arDesc: 'تطبيق تقييم تعليمي بأكثر من 100 ألف تحميل — اختبارات، تتبع تقدم، وتجربة للطلاب الصغار.',
@@ -141,7 +141,7 @@ const projects = [
   },
   {
     en: 'Speed Reading', ar: 'القراءة السريعة', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', 'Offline'], featured: true, color: '#ff5d92',
+    tags: ['Flutter', 'EdTech', 'Offline'], featured: true, color: '#0d9f8a',
     image: 'assets/projects/speed-reading.png',
     enDesc: 'Literacy app with 100K+ downloads and 4.5★ — adaptive reading for grades 1–6 with offline caching.',
     arDesc: 'تطبيق قراءة بأكثر من 100 ألف تحميل وتقييم 4.5★ — قراءة تكيّفية للصفوف 1–6 مع تخزين دون إنترنت.',
@@ -290,7 +290,7 @@ const projects = [
   },
   {
     en: 'SHAL', ar: 'SHAL', type: 'Web', category: 'Web', categoryAr: 'ويب',
-    tags: ['Digital', 'Consulting'], color: '#6b36ff',
+    tags: ['Digital', 'Consulting'], color: '#1a5f8f',
     image: 'assets/projects/shal.png',
     enDesc: 'Digital solutions company site — software and consulting.',
     arDesc: 'موقع حلول رقمية — تطوير واستشارات.',
@@ -357,8 +357,11 @@ function renderProjects() {
     ? projects
     : projects.filter((p) => p.type === filter || p.category === filter);
 
-  const featured = filter === 'All' ? list.filter((p) => p.featured) : [];
-  const rest = filter === 'All' ? list.filter((p) => !p.featured) : list;
+  const featuredAll = filter === 'All' ? list.filter((p) => p.featured) : [];
+  const lead = featuredAll.slice(0, 1);
+  const rest = filter === 'All'
+    ? [...featuredAll.slice(1), ...list.filter((p) => !p.featured)]
+    : list;
 
   const card = (p, i, featuredClass = '') => {
     const tags = (p.tags || []).map((t) => `<span class="tag">${t}</span>`).join('');
@@ -375,8 +378,8 @@ function renderProjects() {
   };
 
   let html = '';
-  if (featured.length) {
-    html += `<div class="projects-featured">${featured.map((p, i) => card(p, i, 'featured')).join('')}</div>`;
+  if (lead.length) {
+    html += `<div class="projects-featured">${lead.map((p, i) => card(p, i, 'featured')).join('')}</div>`;
   }
   html += `<div class="projects-rest">${rest.map((p, i) => card(p, i)).join('')}</div>`;
   $('#projects-grid').innerHTML = html;
