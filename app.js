@@ -5,65 +5,52 @@ const translations = {
     'nav.work': 'أعمالنا',
     'nav.faq': 'أسئلة',
     'nav.contact': 'تواصل',
-    'nav.cta': 'لنبدأ مشروعك ↗',
+    'nav.cta': 'لنبدأ مشروعك <span>↗</span>',
     'trust.products': 'منتجًا ومنصة',
     'trust.downloads': 'تحميل على تطبيقات تعليمية',
     'trust.sectors': 'قطاعات نخدمها',
     'trust.founded': 'تأسست في مصر',
-    'why.label': 'لماذا نحن',
-    'why.title': 'شريك واحد<br>من الفكرة إلى <em>الأثر.</em>',
-    'why.text': 'نبني ونُطلق ونساعد منتجك على النمو — بنفس الفريق وبنفس الوضوح.',
-    'industries.label': 'القطاعات',
-    'industries.title': 'خبرة عبر<br><em>أسواق حقيقية.</em>',
-    'industries.text': 'من التعليم والصحة إلى التجارة واللوجستيات — منتجات أُطلقت لمستخدمين فعليين.',
-    'faq.label': 'أسئلة شائعة',
-    'faq.title': 'إجابات واضحة<br>قبل أن <em>نبدأ.</em>',
-    'contact.note': 'احجز مكالمة سريعة عبر واتساب أو أرسل تفاصيل مشروعك من النموذج.',
-    'hero.eyebrow': 'منتجات رقمية، بنتائج حقيقية',
-    'hero.title': 'نحوّل الفكرة<br><em>إلى منتج</em> يحرّك الأعمال.',
-    'hero.text': 'شركة مصرية تأسست عام 2024؛ نبني تطبيقات ومواقع مخصصة وحلول تسويق رقمي من الفكرة الأولى إلى الإطلاق والنمو.',
-    'hero.primary': 'لنصنع شيئًا عظيمًا <span>↗</span>',
-    'hero.secondary': 'استكشف أعمالنا <span>↓</span>',
-    'hero.stat': 'منتجًا ومنصة أُطلقت',
+    'faq.label': 'أسئلة',
+    'faq.title': 'قبل ما<br><em>نبدأ.</em>',
+    'contact.note': 'واتساب لمكالمة سريعة، أو النموذج للتفاصيل.',
+    'hero.title': 'نحوّل الفكرة<br>إلى منتج يحرّك الأعمال.',
+    'hero.text': 'نبني تطبيقات ومواقع وتسويق رقمي — من مصر إلى المنطقة.',
+    'hero.primary': 'ابدأ مشروعك <span>↗</span>',
+    'hero.secondary': 'شاهد الأعمال',
     'about.label': 'من نحن',
-    'about.title': 'شريك تقني<br>يُفكّر <em>كمالك المنتج.</em>',
-    'about.text': 'في business2code نقدم حلولًا برمجية وتسويقية متكاملة. نبني تطبيقات ومواقع مخصصة وفق احتياجك، ونساعدك على الوصول لجمهورك وتنمية حضورك الرقمي من مصر إلى المنطقة.',
-    'about.link': 'اكتشف كيف نعمل <span>↙</span>',
-    'about.one.title': 'وضوح قبل كل شيء',
-    'about.one.text': 'قرارات مدروسة، تواصل مباشر، وخطة يمكن للجميع فهمها.',
-    'about.two.title': 'جودة قابلة للتوسع',
-    'about.two.text': 'أسس هندسية نظيفة تنمو مع منتجك وأعمالك.',
-    'about.three.title': 'نركز على الأثر',
-    'about.three.text': 'كل ميزة تُبنى لتخدم هدفًا حقيقيًا ومستخدمًا حقيقيًا.',
-    'about.meta': 'تأسست 2024 · مصر',
-    'services.label': 'ما الذي نبنيه',
-    'services.title': 'من شرارة الفكرة<br>إلى <em>واقع رقمي.</em>',
-    'services.text': 'تطوير مخصص وتسويق رقمي؛ من أول سؤال وحتى الإطلاق.',
-    'process.label': 'طريقتنا',
-    'process.title': 'فكرة واضحة.<br><em>تسليم أقوى.</em>',
-    'products.label': 'قادم قريبًا',
-    'products.title': 'نبني منتجات<br>خاصة <em>بنا أيضًا.</em>',
-    'products.text': 'إلى جانب عمل العملاء، نطوّر حلولًا رقمية داخلية. سجّل اهتمامك وكن من أوائل من يعرف عند الإطلاق.',
-    'products.link': 'أخبرنا أنك مهتم <span>↙</span>',
-    'work.label': 'أعمال مختارة',
-    'work.title': 'أفكار صنعت<br><em>فرقًا.</em>',
-    'work.text': 'مجموعة من المنتجات والمنصات التي صنعناها مع شركاء طموحين.',
-    'contact.eyebrow': 'لديك فكرة؟',
-    'contact.title': 'لنحوّلها إلى<br><em>شيء حقيقي.</em>',
-    'contact.text': 'أخبرنا قليلًا عن مشروعك، وسنبدأ من هناك.',
+    'about.title': 'نبني ما يحتاجه<br>عملك <em>فعلًا.</em>',
+    'about.text': 'تطبيقات ومواقع مخصصة، وتصميم يخدم التحويل، وتسويق يوصل المنتج لجمهوره — من أول موجز حتى الإطلاق.',
+    'about.link': 'انظر خدماتنا <span>↙</span>',
+    'about.one.title': 'تطوير مخصص',
+    'about.one.text': 'منتج حول عملك، لا قالب جاهز.',
+    'about.two.title': 'موبايل وويب',
+    'about.two.text': 'Flutter وويب حديث بسرعة وقابلية توسع.',
+    'about.three.title': 'من الفكرة للإطلاق',
+    'about.three.text': 'شريك واحد من الموجز حتى النمو.',
+    'about.meta': 'تأسست 2024 · مصر · برمجة + تسويق',
+    'services.label': 'الخدمات',
+    'services.title': 'ما نصنعه<br><em>معك.</em>',
+    'services.text': 'ست قدرات مترابطة — من الاستراتيجية إلى التسويق.',
+    'process.label': 'الطريقة',
+    'process.title': 'واضح.<br>سريع.<br><em>قابل للقياس.</em>',
+    'work.label': 'أعمال',
+    'work.title': 'منتجات<br><em>خرجت للناس.</em>',
+    'work.text': 'تعليم، صحة، تجارة، لوجستيات وخدمات — تطبيقات ومواقع أُطلقت فعليًا.',
+    'contact.eyebrow': 'جاهز؟',
+    'contact.title': 'خلّينا نبني<br><em>الخطوة الجاية.</em>',
+    'contact.text': 'موجز قصير يكفي — نرد بخطوات واضحة.',
     'contact.location': 'مصر · القاهرة',
     'form.name': 'الاسم',
-    'form.email': 'البريد الإلكتروني',
-    'form.message': 'كيف يمكننا مساعدتك؟',
+    'form.email': 'البريد',
+    'form.message': 'المشروع',
     'form.namePh': 'اسمك الكامل',
     'form.emailPh': 'you@company.com',
     'form.messagePh': 'أخبرنا عن فكرتك...',
-    'form.submit': 'أرسل الطلب <span>↗</span>',
+    'form.submit': 'أرسل <span>↗</span>',
     'footer': 'نبني المستقبل، سطر كود في كل مرة.',
     'view.web': 'زيارة الموقع',
     'view.play': 'Google Play',
-    'view.appstore': 'App Store',
-    'view.project': 'عرض المشروع'
+    'view.appstore': 'App Store'
   },
   en: {
     'nav.about': 'About',
@@ -71,65 +58,52 @@ const translations = {
     'nav.work': 'Work',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
-    'nav.cta': 'Start a project ↗',
+    'nav.cta': 'Start a project <span>↗</span>',
     'trust.products': 'products & platforms',
     'trust.downloads': 'downloads on education apps',
     'trust.sectors': 'industries we serve',
     'trust.founded': 'founded in Egypt',
-    'why.label': 'Why us',
-    'why.title': 'One partner<br>from idea to <em>impact.</em>',
-    'why.text': 'We build, launch, and help your product grow — with the same team and the same clarity.',
-    'industries.label': 'Industries',
-    'industries.title': 'Experience across<br><em>real markets.</em>',
-    'industries.text': 'From education and health to commerce and logistics — products shipped to real users.',
     'faq.label': 'FAQ',
-    'faq.title': 'Clear answers<br>before we <em>start.</em>',
-    'contact.note': 'Book a quick WhatsApp call or send your project details through the form.',
-    'hero.eyebrow': 'DIGITAL PRODUCTS, REAL RESULTS',
-    'hero.title': 'We turn ideas<br>into products that <em>move business.</em>',
-    'hero.text': 'An Egypt-based company founded in 2024. We craft bespoke mobile apps, websites, and digital marketing that take ideas from first thought to launch and growth.',
-    'hero.primary': 'Make something great <span>↗</span>',
-    'hero.secondary': 'Explore our work <span>↓</span>',
-    'hero.stat': 'products & platforms launched',
+    'faq.title': 'Before we<br><em>start.</em>',
+    'contact.note': 'WhatsApp for a quick call, or the form for details.',
+    'hero.title': 'We turn ideas<br>into products that move business.',
+    'hero.text': 'Apps, websites, and digital marketing — from Egypt across the region.',
+    'hero.primary': 'Start a project <span>↗</span>',
+    'hero.secondary': 'See the work',
     'about.label': 'Who we are',
-    'about.title': 'A tech partner<br>that thinks <em>like an owner.</em>',
-    'about.text': 'business2code is your destination for software solutions and marketing services. We specialize in bespoke mobile apps and websites, and we help brands grow their online presence — from Egypt across the region.',
-    'about.link': 'See how we work <span>↙</span>',
-    'about.one.title': 'Clarity first',
-    'about.one.text': 'Thoughtful decisions, direct communication, and a plan everyone can understand.',
-    'about.two.title': 'Quality that scales',
-    'about.two.text': 'Clean engineering foundations that grow with your product and business.',
-    'about.three.title': 'Built for impact',
-    'about.three.text': 'Every feature exists to serve a real goal and a real user.',
-    'about.meta': 'Founded 2024 · Egypt',
-    'services.label': 'What we build',
-    'services.title': 'From a spark of an idea<br>to a <em>digital reality.</em>',
-    'services.text': 'Custom development and digital marketing — from the first question through launch.',
-    'process.label': 'Our way',
-    'process.title': 'Clear thinking.<br><em>Stronger delivery.</em>',
-    'products.label': 'Coming soon',
-    'products.title': 'We also build<br>products of <em>our own.</em>',
-    'products.text': 'Alongside client work, we develop internal digital products. Share your interest and be among the first to know at launch.',
-    'products.link': 'Tell us you are interested <span>↙</span>',
-    'work.label': 'Selected work',
-    'work.title': 'Ideas that made<br><em>a difference.</em>',
-    'work.text': 'A collection of products and platforms we made with ambitious partners.',
-    'contact.eyebrow': 'Have an idea?',
-    'contact.title': "Let's turn it into<br><em>something real.</em>",
-    'contact.text': 'Tell us a little about your project, and we will start there.',
+    'about.title': 'We build what your<br>business <em>actually needs.</em>',
+    'about.text': 'Custom apps and sites, design that converts, and marketing that finds your audience — from first brief to launch.',
+    'about.link': 'See our services <span>↙</span>',
+    'about.one.title': 'Custom build',
+    'about.one.text': 'Shaped around your business, not a template.',
+    'about.two.title': 'Mobile & web',
+    'about.two.text': 'Flutter and modern web that feel fast and scale.',
+    'about.three.title': 'Idea to launch',
+    'about.three.text': 'One partner from brief through growth.',
+    'about.meta': 'Founded 2024 · Egypt · Build + marketing',
+    'services.label': 'Services',
+    'services.title': 'What we make<br><em>with you.</em>',
+    'services.text': 'Six connected capabilities — from strategy to marketing.',
+    'process.label': 'Process',
+    'process.title': 'Clear.<br>Fast.<br><em>Measurable.</em>',
+    'work.label': 'Work',
+    'work.title': 'Products<br><em>out in the world.</em>',
+    'work.text': 'Education, health, commerce, logistics, and services — live apps and sites.',
+    'contact.eyebrow': 'Ready?',
+    'contact.title': "Let's build<br><em>the next step.</em>",
+    'contact.text': 'A short brief is enough — we reply with clear next steps.',
     'contact.location': 'Egypt · Cairo',
     'form.name': 'Name',
-    'form.email': 'Email address',
-    'form.message': 'How can we help?',
+    'form.email': 'Email',
+    'form.message': 'Project',
     'form.namePh': 'Your full name',
     'form.emailPh': 'you@company.com',
     'form.messagePh': 'Tell us about your idea...',
-    'form.submit': 'Send inquiry <span>↗</span>',
+    'form.submit': 'Send <span>↗</span>',
     'footer': 'Building the future, one line of code at a time.',
     'view.web': 'Visit site',
     'view.play': 'Google Play',
-    'view.appstore': 'App Store',
-    'view.project': 'View project'
+    'view.appstore': 'App Store'
   }
 };
 
@@ -138,313 +112,188 @@ const services = [
   ['▣', 'Mobile apps', 'تطبيقات الموبايل', 'Native-feeling iOS and Android experiences, built to perform.', 'تجارب iOS وAndroid سريعة وسلسة وقابلة للنمو.'],
   ['⌘', 'Web platforms', 'منصات الويب', 'Fast, robust web products for customers and your team.', 'منتجات ويب قوية وسريعة لعملائك وفريقك.'],
   ['◒', 'UI/UX design', 'تصميم UI/UX', 'Interfaces with clarity, character, and conversion in mind.', 'واجهات تجمع الوضوح والشخصية وتحفّز التحويل.'],
-  ['↗', 'Backend & cloud', 'البنية الخلفية والسحابة', 'Reliable APIs, data, integrations, and infrastructure.', 'واجهات API وبيانات وتكاملات وبنية تحتية موثوقة.'],
-  ['◈', 'Digital marketing', 'التسويق الرقمي', 'Strategic planning and campaigns that grow your online presence.', 'تخطيط استراتيجي وحملات تنمّي حضورك الرقمي وتصل لجمهورك.']
+  ['↗', 'Backend & cloud', 'البنية الخلفية', 'Reliable APIs, data, integrations, and infrastructure.', 'واجهات API وبيانات وتكاملات وبنية تحتية موثوقة.'],
+  ['◈', 'Digital marketing', 'التسويق الرقمي', 'Planning and campaigns that grow your online presence.', 'تخطيط وحملات تنمّي حضورك الرقمي.']
 ];
 
 const steps = [
   ['01', 'Discover', 'نكتشف', 'Goals, audience, and the sharpest opportunity.', 'الأهداف والجمهور والفرصة الأهم.'],
-  ['02', 'Shape', 'نصمّم المسار', 'Strategy, flows, and a prototype worth testing.', 'استراتيجية وتدفقات ونموذج أولي يستحق الاختبار.'],
-  ['03', 'Build', 'نبني', 'Design and engineering moving as one focused team.', 'تصميم وهندسة يتحركان كفريق واحد مركز.'],
-  ['04', 'Launch & grow', 'نطلق وننمو', 'Release with confidence, learn, then make it better.', 'إطلاق واثق، تعلّم مستمر، وتحسين حقيقي.']
-];
-
-const whyPoints = [
-  ['01', 'Custom build', 'تطوير مخصص', 'Apps and websites shaped around your business — not a generic template.', 'تطبيقات ومواقع تُبنى حول عملك، لا قالب جاهز.'],
-  ['02', 'Mobile & web', 'موبايل وويب', 'Flutter and modern web stacks that feel fast and scale cleanly.', 'Flutter وويب حديث بسرعة عالية وقابلية توسع.'],
-  ['03', 'Digital marketing', 'تسويق رقمي', 'Strategy and campaigns that help people actually find what you ship.', 'استراتيجية وحملات تساعد جمهورك على اكتشاف منتجك.'],
-  ['04', 'Idea to launch', 'من الفكرة للإطلاق', 'One partner from the first brief through release and growth.', 'شريك واحد من أول موجز وحتى الإطلاق والنمو.']
-];
-
-const industries = [
-  ['✎', 'Education', 'التعليم', 'Assessment, literacy, and learning platforms with real student usage.', 'تقييم وقراءة ومنصات تعلم يستخدمها طلاب فعليًا.'],
-  ['✚', 'Health', 'الصحة', 'Remote monitoring, pharmacy, and care companions for sensitive data.', 'متابعة عن بُعد وصيدلية ورعاية ببيانات حساسة.'],
-  ['◈', 'E-commerce', 'التجارة', 'Stores for beauty, retail, and specialty goods with smooth checkout.', 'متاجر تجميل وتجزئة ومنتجات متخصصة بتجربة شراء سلسة.'],
-  ['⬡', 'Logistics', 'اللوجستيات', 'Tracking, delivery, and operations tools for moving people and goods.', 'تتبع وتوصيل وأدوات تشغيل لنقل الأشخاص والبضائع.'],
-  ['◉', 'Services', 'الخدمات', 'Marketplaces and service platforms for mentorship, pets, and more.', 'منصات خدمات وإرشاد ورعاية وأكثر.']
+  ['02', 'Shape', 'نصمّم', 'Strategy, flows, and a prototype worth testing.', 'استراتيجية وتدفقات ونموذج أولي يستحق الاختبار.'],
+  ['03', 'Build', 'نبني', 'Design and engineering moving as one team.', 'تصميم وهندسة يتحركان كفريق واحد.'],
+  ['04', 'Launch', 'نطلق', 'Release with confidence, then make it better.', 'إطلاق واثق ثم تحسين مستمر.']
 ];
 
 const faqs = [
-  ['faq.q1', 'faq.a1', 'How long does a typical project take?', 'كم تستغرق المشاريع عادة؟', 'Most MVPs land in 6–12 weeks depending on scope. We share a clear timeline after discovery.', 'معظم الـ MVP يكتمل خلال 6–12 أسبوعًا حسب النطاق. نشارك جدولًا واضحًا بعد مرحلة الاكتشاف.'],
-  ['faq.q2', 'faq.a2', 'Do you build mobile, web, or both?', 'هل تبنون موبايل أم ويب أم الاثنين؟', 'Both. We ship Flutter apps and modern web platforms — often together as one product.', 'الاثنين. نبني تطبيقات Flutter ومنصات ويب حديثة — وغالبًا كمنتج واحد.'],
-  ['faq.q3', 'faq.a3', 'Do you offer digital marketing too?', 'هل تقدمون تسويقًا رقميًا أيضًا؟', 'Yes. Alongside development we help with planning and campaigns to grow online presence.', 'نعم. إلى جانب التطوير نساعد في التخطيط والحملات لتنمية الحضور الرقمي.'],
-  ['faq.q4', 'faq.a4', 'How do we get started?', 'كيف نبدأ؟', 'Send a short brief via the form or WhatsApp. We reply with next steps and a discovery call.', 'أرسل موجزًا قصيرًا عبر النموذج أو واتساب. نرد بالخطوات التالية وموعد اكتشاف.']
+  ['How long does a typical project take?', 'كم تستغرق المشاريع عادة؟', 'Most MVPs land in 6–12 weeks depending on scope. We share a clear timeline after discovery.', 'معظم الـ MVP يكتمل خلال 6–12 أسبوعًا حسب النطاق. نشارك جدولًا واضحًا بعد الاكتشاف.'],
+  ['Do you build mobile, web, or both?', 'هل تبنون موبايل أم ويب أم الاثنين؟', 'Both. We ship Flutter apps and modern web platforms — often together as one product.', 'الاثنين. نبني تطبيقات Flutter ومنصات ويب — وغالبًا كمنتج واحد.'],
+  ['Do you offer digital marketing too?', 'هل تقدمون تسويقًا رقميًا أيضًا؟', 'Yes. Alongside development we help with planning and campaigns to grow online presence.', 'نعم. إلى جانب التطوير نساعد في التخطيط والحملات.'],
+  ['How do we get started?', 'كيف نبدأ؟', 'Send a short brief via the form or WhatsApp. We reply with next steps.', 'أرسل موجزًا عبر النموذج أو واتساب. نرد بالخطوات التالية.']
 ];
 
 const projects = [
   {
-    en: 'Verbal Abilities',
-    ar: 'القدرات اللفظية',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', '100K+'],
-    featured: true,
-    color: '#7558f7',
+    en: 'Verbal Abilities', ar: 'القدرات اللفظية', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'EdTech', '100K+'], featured: true, color: '#7558f7',
     image: 'assets/projects/verbal-abilities.png',
-    enDesc: 'Educational assessment app for Afaq with 100K+ downloads — interactive quizzes, progress tracking, and a UX built for young learners.',
-    arDesc: 'تطبيق تقييم تعليمي لآفاق بأكثر من 100 ألف تحميل — اختبارات تفاعلية، تتبع تقدم، وتجربة مصممة للطلاب الصغار.',
+    enDesc: 'Educational assessment app with 100K+ downloads — quizzes, progress tracking, UX for young learners.',
+    arDesc: 'تطبيق تقييم تعليمي بأكثر من 100 ألف تحميل — اختبارات، تتبع تقدم، وتجربة للطلاب الصغار.',
     links: {}
   },
   {
-    en: 'Speed Reading',
-    ar: 'القراءة السريعة',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', 'Offline'],
-    featured: true,
-    color: '#ff5d92',
+    en: 'Speed Reading', ar: 'القراءة السريعة', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'EdTech', 'Offline'], featured: true, color: '#ff5d92',
     image: 'assets/projects/speed-reading.png',
-    enDesc: 'Literacy and speed-reading app with 100K+ downloads and a 4.5★ rating — adaptive text animation for grades 1–6 with offline content caching.',
-    arDesc: 'تطبيق قراءة سريعة بأكثر من 100 ألف تحميل وتقييم 4.5★ — محرك نص تكيّفي للصفوف 1–6 مع تخزين محتوى دون إنترنت.',
+    enDesc: 'Literacy app with 100K+ downloads and 4.5★ — adaptive reading for grades 1–6 with offline caching.',
+    arDesc: 'تطبيق قراءة بأكثر من 100 ألف تحميل وتقييم 4.5★ — قراءة تكيّفية للصفوف 1–6 مع تخزين دون إنترنت.',
     links: {}
   },
   {
-    en: 'Allurion',
-    ar: 'Allurion',
-    type: 'Mobile',
-    category: 'HealthTech',
-    categoryAr: 'تقنية صحية',
-    tags: ['Flutter', 'HealthTech', 'Bluetooth'],
-    featured: true,
-    color: '#157d9c',
+    en: 'Allurion', ar: 'Allurion', type: 'Mobile', category: 'HealthTech', categoryAr: 'تقنية صحية',
+    tags: ['Flutter', 'HealthTech', 'Bluetooth'], featured: true, color: '#157d9c',
     image: 'assets/projects/allurion.png',
-    enDesc: 'Remote patient monitoring for the Allurion Weight Loss Program — Bluetooth scales, telehealth, clinic messaging, and Apple Health / Health Connect.',
-    arDesc: 'متابعة مرضى عن بُعد لبرنامج Allurion — موازين بلوتوث، استشارات فيديو، رسائل العيادة، وتكامل Apple Health.',
+    enDesc: 'Remote patient monitoring — Bluetooth scales, telehealth, clinic messaging, Apple Health.',
+    arDesc: 'متابعة مرضى عن بُعد — موازين بلوتوث، استشارات فيديو، رسائل عيادة، Apple Health.',
     links: {}
   },
   {
-    en: 'Surely',
-    ar: 'Surely',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Mentorship', 'Chat'],
-    color: '#ff9d28',
+    en: 'Surely', ar: 'Surely', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Mentorship', 'Chat'], color: '#ff9d28',
     image: 'assets/projects/surely.png',
-    enDesc: 'Career mentorship marketplace across KSA and the GCC — mentor discovery, session scheduling, push notifications, and real-time chat.',
-    arDesc: 'منصة إرشاد مهني في السعودية والخليج — اكتشاف المرشدين، حجز الجلسات، إشعارات ذكية، ومحادثة فورية.',
+    enDesc: 'Career mentorship marketplace across KSA and the GCC — discovery, scheduling, real-time chat.',
+    arDesc: 'منصة إرشاد مهني في السعودية والخليج — اكتشاف، حجز، ومحادثة فورية.',
     links: {}
   },
   {
-    en: 'Click',
-    ar: 'Click',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Payments', 'Chat'],
-    color: '#de456c',
-    enDesc: 'Freelance marketplace connecting clients with professionals — project management, payment integration, and real-time communication.',
-    arDesc: 'منصة عمل حر تربط العملاء بالمحترفين — إدارة مشاريع، مدفوعات، وتواصل فوري.',
+    en: 'Click', ar: 'Click', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Payments', 'Chat'], color: '#de456c',
+    enDesc: 'Freelance marketplace — project management, payments, real-time communication.',
+    arDesc: 'منصة عمل حر — إدارة مشاريع، مدفوعات، وتواصل فوري.',
     links: {}
   },
   {
-    en: 'Salek',
-    ar: 'سالك',
-    type: 'Mobile',
-    category: 'Logistics',
-    categoryAr: 'لوجستيات',
-    tags: ['Flutter', 'Logistics', 'Tracking'],
-    color: '#268eac',
-    enDesc: 'Transportation and logistics with route planning, vehicle tracking, delivery management, and live location services.',
-    arDesc: 'نقل ولوجستيات مع تخطيط مسارات، تتبع مركبات، إدارة توصيل، وموقع مباشر.',
+    en: 'Salek', ar: 'سالك', type: 'Mobile', category: 'Logistics', categoryAr: 'لوجستيات',
+    tags: ['Flutter', 'Logistics', 'Tracking'], color: '#268eac',
+    enDesc: 'Transportation and logistics with route planning, tracking, and live location.',
+    arDesc: 'نقل ولوجستيات مع تخطيط مسارات وتتبع وموقع مباشر.',
     links: { play: 'https://play.google.com/store/apps/details?id=com.salek.studentapp' }
   },
   {
-    en: 'Waradly',
-    ar: 'وردلي',
-    type: 'Mobile',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['Flutter', 'E-Commerce', 'Payments'],
-    color: '#d75674',
-    enDesc: 'Complete e-commerce mobile shop — catalog, cart, secure payments, order tracking, and reviews.',
-    arDesc: 'متجر إلكتروني متكامل — كتالوج، سلة، دفع آمن، تتبع طلبات، ومراجعات.',
+    en: 'Waradly', ar: 'وردلي', type: 'Mobile', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['Flutter', 'E-Commerce'], color: '#d75674',
+    enDesc: 'Complete e-commerce mobile shop — catalog, cart, payments, tracking.',
+    arDesc: 'متجر إلكتروني متكامل — كتالوج، سلة، دفع، وتتبع.',
     links: { play: 'https://play.google.com/store/apps/details?id=com.waradly.shop' }
   },
   {
-    en: 'Al-Taje',
-    ar: 'منصة التاج',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', 'LMS'],
-    color: '#6b36ff',
-    enDesc: 'Interactive learning platform with modules, quizzes, progress tracking, and personalized paths.',
-    arDesc: 'منصة تعلم تفاعلية بوحدات واختبارات وتتبع تقدم ومسارات مخصصة.',
+    en: 'Al-Taje', ar: 'منصة التاج', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'EdTech', 'LMS'], color: '#6b36ff',
+    enDesc: 'Interactive learning platform with modules, quizzes, and personalized paths.',
+    arDesc: 'منصة تعلم تفاعلية بوحدات واختبارات ومسارات مخصصة.',
     links: {
       play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.altajelearning',
       appstore: 'https://apps.apple.com/eg/app/%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D8%AC-%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A/id6478447792'
     }
   },
   {
-    en: 'Al-Motawef',
-    ar: 'المطوف',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Pilgrimage', 'Groups'],
-    color: '#008b6e',
-    enDesc: 'Hajj group management to reduce congestion — coordination, pilgrim tracking bracelets, and guided group movement.',
-    arDesc: 'إدارة مجموعات الحج لتقليل الزحام — تنسيق، تتبع الحجاج، وحركة جماعية موجهة.',
+    en: 'Al-Motawef', ar: 'المطوف', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Pilgrimage'], color: '#008b6e',
+    enDesc: 'Hajj group management — coordination, tracking, guided movement.',
+    arDesc: 'إدارة مجموعات الحج — تنسيق وتتبع وحركة موجهة.',
     links: {}
   },
   {
-    en: 'Ali Sadiq',
-    ar: 'علي صادق',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'E-Learning', 'Arabic'],
-    color: '#e87946',
-    enDesc: 'Comprehensive e-learning platform with courses, video lessons, quizzes, and Arabic language support.',
-    arDesc: 'منصة تعليم إلكتروني شاملة بدورات ودروس فيديو واختبارات ودعم عربي.',
+    en: 'Ali Sadiq', ar: 'علي صادق', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'E-Learning'], color: '#e87946',
+    enDesc: 'E-learning platform with courses, video lessons, and Arabic support.',
+    arDesc: 'منصة تعليم إلكتروني بدورات ودروس فيديو ودعم عربي.',
     links: {
       play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.alisadiqapp',
       appstore: 'https://apps.apple.com/eg/app/%D8%B9%D9%84%D9%8A-%D8%B5%D8%A7%D8%AF%D9%82/id1610896346'
     }
   },
   {
-    en: 'Rouge',
-    ar: 'روج',
-    type: 'Mobile',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['Flutter', 'Beauty', 'Catalog'],
-    color: '#e94680',
-    enDesc: 'Beauty and cosmetics e-commerce — product catalog, consultations, and secure checkout.',
-    arDesc: 'متجر تجميل ومستحضرات — كتالوج، استشارات، ودفع آمن.',
+    en: 'Rouge', ar: 'روج', type: 'Mobile', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['Flutter', 'Beauty'], color: '#e94680',
+    enDesc: 'Beauty e-commerce — catalog, consultations, secure checkout.',
+    arDesc: 'متجر تجميل — كتالوج واستشارات ودفع آمن.',
     links: {
       play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.rougbeautestore',
       web: 'https://rouge-store.com/login'
     }
   },
   {
-    en: 'Pharamsina',
-    ar: 'فارماسينا',
-    type: 'Mobile',
-    category: 'HealthTech',
-    categoryAr: 'تقنية صحية',
-    tags: ['Flutter', 'Pharmacy', 'Healthcare'],
-    color: '#3b9f78',
-    enDesc: 'Pharmacy companion — medicine inventory, prescriptions, and delivery tracking.',
-    arDesc: 'تطبيق صيدلية — مخزون أدوية، وصفات، وتتبع توصيل.',
+    en: 'Pharamsina', ar: 'فارماسينا', type: 'Mobile', category: 'HealthTech', categoryAr: 'تقنية صحية',
+    tags: ['Flutter', 'Pharmacy'], color: '#3b9f78',
+    enDesc: 'Pharmacy companion — inventory, prescriptions, delivery tracking.',
+    arDesc: 'تطبيق صيدلية — مخزون ووصفات وتتبع توصيل.',
     links: { play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.pharamsina' }
   },
   {
-    en: 'Go Hlal',
-    ar: 'Go Hlal',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Food', 'Delivery'],
-    color: '#f15e28',
-    enDesc: 'Halal food delivery — restaurant listings, menus, order tracking, and real-time updates.',
-    arDesc: 'توصيل طعام حلال — مطاعم، قوائم، تتبع طلبات، وتحديثات مباشرة.',
+    en: 'Go Hlal', ar: 'Go Hlal', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Food'], color: '#f15e28',
+    enDesc: 'Halal food delivery — restaurants, menus, live order tracking.',
+    arDesc: 'توصيل طعام حلال — مطاعم وقوائم وتتبع طلبات.',
     links: {}
   },
   {
-    en: 'Paw App',
-    ar: 'Paw App',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Pets', 'Care'],
-    color: '#e38a3d',
-    enDesc: 'Pet care and management — profiles, health tracking, vet appointments, and community.',
-    arDesc: 'رعاية الحيوانات الأليفة — ملفات، تتبع صحة، مواعيد بيطرية، ومجتمع.',
-    links: {
-      play: 'https://play.google.com/store/apps/details?id=com.pawapp.customer'
-    }
+    en: 'Paw App', ar: 'Paw App', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Pets'], color: '#e38a3d',
+    enDesc: 'Pet care — profiles, health tracking, vet appointments.',
+    arDesc: 'رعاية حيوانات أليفة — ملفات وتتبع صحة ومواعيد.',
+    links: { play: 'https://play.google.com/store/apps/details?id=com.pawapp.customer' }
   },
   {
-    en: 'Moqim',
-    ar: 'مقيم',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Real Estate'],
-    color: '#425bc4',
-    enDesc: 'Real estate services — listings, filters, agent connections, and property search.',
-    arDesc: 'خدمات عقارية — إعلانات، فلاتر، تواصل مع وسطاء، وبحث ذكي.',
+    en: 'Moqim', ar: 'مقيم', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Real Estate'], color: '#425bc4',
+    enDesc: 'Real estate — listings, filters, agent connections.',
+    arDesc: 'عقارات — إعلانات وفلاتر وتواصل مع وسطاء.',
     links: {}
   },
   {
-    en: 'Orbit Dimension',
-    ar: 'Orbit Dimension',
-    type: 'Web',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['E-commerce', 'Beauty', 'Global'],
-    color: '#8759e5',
+    en: 'Orbit Dimension', ar: 'Orbit Dimension', type: 'Web', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['E-commerce', 'Beauty'], color: '#8759e5',
     image: 'assets/projects/orbit-dimension.png',
-    enDesc: 'Beauty and personal care e-commerce — skincare, makeup, fragrance, offers, and multi-language shopping.',
-    arDesc: 'تجارة إلكترونية للعناية والجمال — بشرة، مكياج، عطور، عروض، وتعدد لغات.',
+    enDesc: 'Beauty and personal care e-commerce with multi-language shopping.',
+    arDesc: 'تجارة إلكترونية للعناية والجمال مع تعدد لغات.',
     links: { web: 'https://orbitdimension.online/' }
   },
   {
-    en: '365 Sport AT',
-    ar: '365 Sport AT',
-    type: 'Web',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Sports', 'Live Scores'],
-    color: '#ee5459',
+    en: '365 Sport AT', ar: '365 Sport AT', type: 'Web', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Sports', 'Live Scores'], color: '#ee5459',
     image: 'assets/projects/sport-365.png',
-    enDesc: 'Sports platform for live scores, fixtures, player stats, highlights, and real-time news.',
-    arDesc: 'منصة رياضية للنتائج المباشرة والجداول وإحصائيات اللاعبين والأخبار.',
+    enDesc: 'Sports platform for live scores, fixtures, and news.',
+    arDesc: 'منصة رياضية للنتائج المباشرة والجداول والأخبار.',
     links: { web: 'https://365sportat.app/' }
   },
   {
-    en: 'Fawzy Al Attar',
-    ar: 'فوزي العطار',
-    type: 'Web',
-    category: 'Web',
-    categoryAr: 'ويب',
-    tags: ['Website', 'Brand'],
-    color: '#c46d52',
+    en: 'Fawzy Al Attar', ar: 'فوزي العطار', type: 'Web', category: 'Web', categoryAr: 'ويب',
+    tags: ['Website', 'Brand'], color: '#c46d52',
     image: 'assets/projects/fawzy-al-attar.png',
-    enDesc: 'Professional personal brand website — about, services, portfolio, and contact.',
-    arDesc: 'موقع احترافي للعلامة الشخصية — نبذة، خدمات، أعمال، وتواصل.',
+    enDesc: 'Professional personal brand website.',
+    arDesc: 'موقع احترافي للعلامة الشخصية.',
     links: { web: 'http://fawzyalattar.com/' }
   },
   {
-    en: 'Ameen',
-    ar: 'أمين',
-    type: 'Web',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Services', 'Healthcare', 'Education'],
-    color: '#388a8a',
-    enDesc: 'Saudi platform for education and health services with a clean, culturally attuned design.',
-    arDesc: 'منصة سعودية لخدمات تعليمية وصحية بتصميم نظيف يناسب الجمهور المحلي.',
+    en: 'Ameen', ar: 'أمين', type: 'Web', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Services', 'Healthcare'], color: '#388a8a',
+    enDesc: 'Saudi platform for education and health services.',
+    arDesc: 'منصة سعودية لخدمات تعليمية وصحية.',
     links: {}
   },
   {
-    en: 'Fine Gold Kuwait',
-    ar: 'فاين جولد الكويت',
-    type: 'Web',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['Gold', 'Investment', 'Arabic'],
-    color: '#b88924',
+    en: 'Fine Gold Kuwait', ar: 'فاين جولد الكويت', type: 'Web', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['Gold', 'Arabic'], color: '#b88924',
     image: 'assets/projects/fine-gold.png',
-    enDesc: 'Kuwait gold and precious-metals trading — luxury browsing, pricing, and Arabic support.',
-    arDesc: 'تجارة ذهب ومعادن ثمينة في الكويت — تصفح فاخر، أسعار، ودعم عربي.',
+    enDesc: 'Kuwait gold and precious-metals trading platform.',
+    arDesc: 'منصة تجارة ذهب ومعادن ثمينة في الكويت.',
     links: { web: 'https://www.finegoldkwt.com/ar' }
   },
   {
-    en: 'SHAL',
-    ar: 'SHAL',
-    type: 'Web',
-    category: 'Web',
-    categoryAr: 'ويب',
-    tags: ['Digital', 'Consulting', 'IT'],
-    color: '#6b36ff',
+    en: 'SHAL', ar: 'SHAL', type: 'Web', category: 'Web', categoryAr: 'ويب',
+    tags: ['Digital', 'Consulting'], color: '#6b36ff',
     image: 'assets/projects/shal.png',
-    enDesc: 'Digital solutions company site — software, consulting, case studies, and transformation services.',
-    arDesc: 'موقع حلول رقمية — تطوير برمجي، استشارات، دراسات حالة، وتحول رقمي.',
+    enDesc: 'Digital solutions company site — software and consulting.',
+    arDesc: 'موقع حلول رقمية — تطوير واستشارات.',
     links: { web: 'https://shal.cc/' }
   }
 ];
@@ -459,36 +308,20 @@ function renderServices() {
   ).join('');
 }
 
-function renderWhy() {
-  const el = $('#why-grid');
-  if (!el) return;
-  el.innerHTML = whyPoints.map((w) =>
-    `<article class="why-card reveal"><strong>${w[0]}</strong><h3>${lang === 'ar' ? w[2] : w[1]}</h3><p>${lang === 'ar' ? w[4] : w[3]}</p></article>`
-  ).join('');
-}
-
-function renderIndustries() {
-  const el = $('#industries-grid');
-  if (!el) return;
-  el.innerHTML = industries.map((i) =>
-    `<article class="industry-card reveal"><span class="industry-icon">${i[0]}</span><h3>${lang === 'ar' ? i[2] : i[1]}</h3><p>${lang === 'ar' ? i[4] : i[3]}</p></article>`
-  ).join('');
-}
-
 function renderFaq() {
   const el = $('#faq-list');
   if (!el) return;
   el.innerHTML = faqs.map((f, idx) =>
     `<details class="faq-item reveal" ${idx === 0 ? 'open' : ''}>
-      <summary>${lang === 'ar' ? f[3] : f[2]}</summary>
-      <p>${lang === 'ar' ? f[5] : f[4]}</p>
+      <summary>${lang === 'ar' ? f[1] : f[0]}</summary>
+      <p>${lang === 'ar' ? f[3] : f[2]}</p>
     </details>`
   ).join('');
 }
 
 function renderSteps() {
   $('#process-steps').innerHTML = steps.map((s) =>
-    `<article class="step reveal"><strong>${s[0]}</strong><div><h3>${lang === 'ar' ? s[2] : s[1]}</h3><p>${lang === 'ar' ? s[4] : s[3]}</p></div><i>↗</i></article>`
+    `<article class="step reveal"><strong>${s[0]}</strong><div><h3>${lang === 'ar' ? s[2] : s[1]}</h3><p>${lang === 'ar' ? s[4] : s[3]}</p></div></article>`
   ).join('');
 }
 
@@ -530,7 +363,7 @@ function renderProjects() {
   const card = (p, i, featuredClass = '') => {
     const tags = (p.tags || []).map((t) => `<span class="tag">${t}</span>`).join('');
     const actions = projectLinks(p);
-    return `<article class="project reveal ${featuredClass}" style="transition-delay:${(i % 3) * 0.07}s">
+    return `<article class="project reveal ${featuredClass}" style="transition-delay:${(i % 3) * 0.06}s">
       ${projectVisual(p)}
       <div class="project-body">
         <h3>${lang === 'ar' ? p.ar : p.en}</h3>
@@ -545,7 +378,7 @@ function renderProjects() {
   if (featured.length) {
     html += `<div class="projects-featured">${featured.map((p, i) => card(p, i, 'featured')).join('')}</div>`;
   }
-  html += rest.map((p, i) => card(p, i)).join('');
+  html += `<div class="projects-rest">${rest.map((p, i) => card(p, i)).join('')}</div>`;
   $('#projects-grid').innerHTML = html;
   observeReveals();
 }
@@ -560,8 +393,6 @@ function applyLanguage() {
   document.querySelectorAll('[data-ph]').forEach((el) => { el.placeholder = trans(el.dataset.ph); });
   $('#language').textContent = lang === 'ar' ? 'EN' : 'ع';
   renderServices();
-  renderWhy();
-  renderIndustries();
   renderFaq();
   renderSteps();
   renderFilters();
@@ -586,12 +417,12 @@ $('#contact-form').addEventListener('submit', (e) => {
   if (!form.checkValidity()) { form.reportValidity(); return; }
   $('.form-status').textContent = lang === 'ar'
     ? 'شكرًا! تم استلام طلبك، وسنتواصل معك قريبًا.'
-    : 'Thanks! Your inquiry is ready—we will be in touch shortly.';
+    : 'Thanks! We will be in touch shortly.';
   form.reset();
 });
 
 window.addEventListener('scroll', () => {
-  document.querySelector('.header')?.classList.toggle('scrolled', window.scrollY > 24);
+  document.querySelector('.header')?.classList.toggle('scrolled', window.scrollY > 40);
 }, { passive: true });
 
 $('#year').textContent = new Date().getFullYear();
