@@ -173,278 +173,187 @@ const faqs = [
 
 const projects = [
   {
-    en: 'Verbal Abilities',
-    ar: 'القدرات اللفظية',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', '100K+'],
-    featured: true,
-    color: '#7558f7',
+    en: 'Verbal Abilities', ar: 'القدرات اللفظية', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'EdTech', '100K+'], featured: true, color: '#7558f7',
     image: 'assets/projects/verbal-abilities.png',
-    enDesc: 'Educational assessment app for Afaq with 100K+ downloads — interactive quizzes, progress tracking, and a UX built for young learners.',
-    arDesc: 'تطبيق تقييم تعليمي لآفاق بأكثر من 100 ألف تحميل — اختبارات تفاعلية، تتبع تقدم، وتجربة مصممة للطلاب الصغار.',
-    links: {}
-  },
-  {
-    en: 'Speed Reading',
-    ar: 'القراءة السريعة',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', 'Offline'],
-    featured: true,
-    color: '#ff5d92',
-    image: 'assets/projects/speed-reading.png',
-    enDesc: 'Literacy and speed-reading app with 100K+ downloads and a 4.5★ rating — adaptive text animation for grades 1–6 with offline content caching.',
-    arDesc: 'تطبيق قراءة سريعة بأكثر من 100 ألف تحميل وتقييم 4.5★ — محرك نص تكيّفي للصفوف 1–6 مع تخزين محتوى دون إنترنت.',
-    links: {}
-  },
-  {
-    en: 'Allurion',
-    ar: 'Allurion',
-    type: 'Mobile',
-    category: 'HealthTech',
-    categoryAr: 'تقنية صحية',
-    tags: ['Flutter', 'HealthTech', 'Bluetooth'],
-    featured: true,
-    color: '#157d9c',
-    image: 'assets/projects/allurion.png',
-    enDesc: 'Remote patient monitoring for the Allurion Weight Loss Program — Bluetooth scales, telehealth, clinic messaging, and Apple Health / Health Connect.',
-    arDesc: 'متابعة مرضى عن بُعد لبرنامج Allurion — موازين بلوتوث، استشارات فيديو، رسائل العيادة، وتكامل Apple Health.',
-    links: {}
-  },
-  {
-    en: 'Surely',
-    ar: 'Surely',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Mentorship', 'Chat'],
-    color: '#ff9d28',
-    image: 'assets/projects/surely.png',
-    enDesc: 'Career mentorship marketplace across KSA and the GCC — mentor discovery, session scheduling, push notifications, and real-time chat.',
-    arDesc: 'منصة إرشاد مهني في السعودية والخليج — اكتشاف المرشدين، حجز الجلسات، إشعارات ذكية، ومحادثة فورية.',
-    links: {}
-  },
-  {
-    en: 'Click',
-    ar: 'Click',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Payments', 'Chat'],
-    color: '#de456c',
-    enDesc: 'Freelance marketplace connecting clients with professionals — project management, payment integration, and real-time communication.',
-    arDesc: 'منصة عمل حر تربط العملاء بالمحترفين — إدارة مشاريع، مدفوعات، وتواصل فوري.',
-    links: {}
-  },
-  {
-    en: 'Salek',
-    ar: 'سالك',
-    type: 'Mobile',
-    category: 'Logistics',
-    categoryAr: 'لوجستيات',
-    tags: ['Flutter', 'Logistics', 'Tracking'],
-    color: '#268eac',
-    enDesc: 'Transportation and logistics with route planning, vehicle tracking, delivery management, and live location services.',
-    arDesc: 'نقل ولوجستيات مع تخطيط مسارات، تتبع مركبات، إدارة توصيل، وموقع مباشر.',
-    links: { play: 'https://play.google.com/store/apps/details?id=com.salek.studentapp' }
-  },
-  {
-    en: 'Waradly',
-    ar: 'وردلي',
-    type: 'Mobile',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['Flutter', 'E-Commerce', 'Payments'],
-    color: '#d75674',
-    enDesc: 'Complete e-commerce mobile shop — catalog, cart, secure payments, order tracking, and reviews.',
-    arDesc: 'متجر إلكتروني متكامل — كتالوج، سلة، دفع آمن، تتبع طلبات، ومراجعات.',
-    links: { play: 'https://play.google.com/store/apps/details?id=com.waradly.shop' }
-  },
-  {
-    en: 'Al-Taje',
-    ar: 'منصة التاج',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'EdTech', 'LMS'],
-    color: '#6b36ff',
-    enDesc: 'Interactive learning platform with modules, quizzes, progress tracking, and personalized paths.',
-    arDesc: 'منصة تعلم تفاعلية بوحدات واختبارات وتتبع تقدم ومسارات مخصصة.',
+    enDesc: 'Educational assessment app for Afaq with 100K+ downloads — quizzes, progress tracking, and a UX for young learners.',
+    arDesc: 'تطبيق تقييم تعليمي لآفاق بأكثر من 100 ألف تحميل — اختبارات، تتبع تقدم، وتجربة للطلاب الصغار.',
     links: {
-      play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.altajelearning',
-      appstore: 'https://apps.apple.com/eg/app/%D9%85%D9%86%D8%B5%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D8%AC-%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A/id6478447792'
+      play: 'https://play.google.com/store/apps/details?id=tests.aafaq.com.aaafaqtests',
+      appstore: 'https://apps.apple.com/us/app/%D8%A7%D9%84%D9%82%D8%AF%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%81%D8%B8%D9%8A%D8%A9/id1282270291'
     }
   },
   {
-    en: 'Al-Motawef',
-    ar: 'المطوف',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Pilgrimage', 'Groups'],
-    color: '#008b6e',
-    enDesc: 'Hajj group management to reduce congestion — coordination, pilgrim tracking bracelets, and guided group movement.',
-    arDesc: 'إدارة مجموعات الحج لتقليل الزحام — تنسيق، تتبع الحجاج، وحركة جماعية موجهة.',
-    links: {}
+    en: 'Speed Reading', ar: 'القراءة السريعة', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'EdTech', 'Offline'], featured: true, color: '#ff5d92',
+    image: 'assets/projects/speed-reading.png',
+    enDesc: 'Literacy app with 100K+ downloads and 4.5★ — adaptive reading for grades 1–6 with offline caching.',
+    arDesc: 'تطبيق قراءة بأكثر من 100 ألف تحميل وتقييم 4.5★ — قراءة تكيّفية للصفوف 1–6 مع تخزين دون إنترنت.',
+    links: {
+      play: 'https://play.google.com/store/apps/details?id=com.aafaq.speedreading',
+      appstore: 'https://apps.apple.com/us/app/%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%B3%D8%B1%D9%8A%D8%B9%D8%A9-%D9%84%D9%84%D8%B5%D9%81%D9%88%D9%81-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%8A%D8%A9/id1285567625'
+    }
   },
   {
-    en: 'Ali Sadiq',
-    ar: 'علي صادق',
-    type: 'Mobile',
-    category: 'EdTech',
-    categoryAr: 'تقنية تعليمية',
-    tags: ['Flutter', 'E-Learning', 'Arabic'],
-    color: '#e87946',
-    enDesc: 'Comprehensive e-learning platform with courses, video lessons, quizzes, and Arabic language support.',
-    arDesc: 'منصة تعليم إلكتروني شاملة بدورات ودروس فيديو واختبارات ودعم عربي.',
+    en: 'Allurion', ar: 'Allurion', type: 'Mobile', category: 'HealthTech', categoryAr: 'تقنية صحية',
+    tags: ['Flutter', 'HealthTech', 'Bluetooth'], featured: true, color: '#157d9c',
+    image: 'assets/projects/allurion.png',
+    enDesc: 'Remote patient monitoring — Bluetooth scales, telehealth, clinic messaging, Apple Health.',
+    arDesc: 'متابعة مرضى عن بُعد — موازين بلوتوث، استشارات فيديو، رسائل عيادة، Apple Health.',
+    links: { play: 'https://play.google.com/store/apps/details?id=com.allurion.allurion_care' }
+  },
+  {
+    en: 'Surely', ar: 'Surely', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Mentorship', 'Chat'], color: '#ff9d28',
+    image: 'assets/projects/surely.png',
+    enDesc: 'Career mentorship marketplace across KSA and the GCC — discovery, scheduling, real-time chat.',
+    arDesc: 'منصة إرشاد مهني في السعودية والخليج — اكتشاف، حجز، ومحادثة فورية.',
+    links: {
+      play: 'https://play.google.com/store/apps/details?id=com.raqam.shurrly',
+      appstore: 'https://apps.apple.com/us/app/surely/id6787663937'
+    }
+  },
+  {
+    en: 'Click', ar: 'Click', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Payments', 'Chat'], color: '#de456c', icon: true,
+    image: 'assets/projects/click.png',
+    enDesc: 'Freelance marketplace — project management, payments, real-time communication.',
+    arDesc: 'منصة عمل حر — إدارة مشاريع، مدفوعات، وتواصل فوري.',
+    links: { play: 'https://play.google.com/store/apps/details?id=com.freelance.click_app' }
+  },
+  {
+    en: 'Salek', ar: 'سالك', type: 'Mobile', category: 'Logistics', categoryAr: 'لوجستيات',
+    tags: ['Flutter', 'Logistics', 'Tracking'], color: '#268eac', icon: true,
+    image: 'assets/projects/salek.png',
+    enDesc: 'Transportation and logistics with route planning, tracking, and live location.',
+    arDesc: 'نقل ولوجستيات مع تخطيط مسارات وتتبع وموقع مباشر.',
+    links: {
+      play: 'https://play.google.com/store/apps/details?id=com.salek.studentapp',
+      appstore: 'https://apps.apple.com/us/app/salek/id1664974253'
+    }
+  },
+  {
+    en: 'Waradly', ar: 'وردلي', type: 'Mobile', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['Flutter', 'E-Commerce', 'Payments'], color: '#d75674', icon: true,
+    image: 'assets/projects/waradly.png',
+    enDesc: 'Complete e-commerce mobile shop — catalog, cart, payments, order tracking.',
+    arDesc: 'متجر إلكتروني متكامل — كتالوج، سلة، دفع، وتتبع طلبات.',
+    links: {
+      play: 'https://play.google.com/store/apps/details?id=com.waradly.shop',
+      appstore: 'https://apps.apple.com/eg/app/waradly-%D9%88%D8%B1%D8%AF%D9%84%D9%8A/id6468254918'
+    }
+  },
+  {
+    en: 'Al-Taje', ar: 'منصة التاج', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'EdTech', 'LMS'], color: '#6b36ff', icon: true,
+    image: 'assets/projects/altaje.png',
+    enDesc: 'Interactive learning platform with modules, quizzes, and personalized paths.',
+    arDesc: 'منصة تعلم تفاعلية بوحدات واختبارات ومسارات مخصصة.',
+    links: { play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.altajelearning' }
+  },
+  {
+    en: 'Al-Motawef', ar: 'المطوف', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Pilgrimage', 'Groups'], color: '#008b6e', icon: true,
+    image: 'assets/projects/almotawef.png',
+    enDesc: 'Hajj group management to reduce congestion — coordination and guided movement.',
+    arDesc: 'إدارة مجموعات الحج لتقليل الزحام — تنسيق وتتبع وحركة موجهة.',
+    links: { play: 'https://play.google.com/store/apps/details?id=com.almotawef' }
+  },
+  {
+    en: 'Ali Sadiq', ar: 'علي صادق', type: 'Mobile', category: 'EdTech', categoryAr: 'تقنية تعليمية',
+    tags: ['Flutter', 'E-Learning', 'Arabic'], color: '#e87946', icon: true,
+    image: 'assets/projects/alisadiq.png',
+    enDesc: 'E-learning platform with courses, video lessons, quizzes, and Arabic support.',
+    arDesc: 'منصة تعليم إلكتروني بدورات ودروس فيديو واختبارات ودعم عربي.',
     links: {
       play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.alisadiqapp',
       appstore: 'https://apps.apple.com/eg/app/%D8%B9%D9%84%D9%8A-%D8%B5%D8%A7%D8%AF%D9%82/id1610896346'
     }
   },
   {
-    en: 'Rouge',
-    ar: 'روج',
-    type: 'Mobile',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['Flutter', 'Beauty', 'Catalog'],
-    color: '#e94680',
-    enDesc: 'Beauty and cosmetics e-commerce — product catalog, consultations, and secure checkout.',
+    en: 'Rouge', ar: 'روج', type: 'Mobile', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['Flutter', 'Beauty', 'Catalog'], color: '#e94680',
+    enDesc: 'Beauty and cosmetics e-commerce — catalog, consultations, secure checkout.',
     arDesc: 'متجر تجميل ومستحضرات — كتالوج، استشارات، ودفع آمن.',
-    links: {
-      play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.rougbeautestore',
-      web: 'https://rouge-store.com/login'
-    }
+    links: { play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.rougbeautestore' }
   },
   {
-    en: 'Pharamsina',
-    ar: 'فارماسينا',
-    type: 'Mobile',
-    category: 'HealthTech',
-    categoryAr: 'تقنية صحية',
-    tags: ['Flutter', 'Pharmacy', 'Healthcare'],
-    color: '#3b9f78',
-    enDesc: 'Pharmacy companion — medicine inventory, prescriptions, and delivery tracking.',
+    en: 'Pharamsina', ar: 'فارماسينا', type: 'Mobile', category: 'HealthTech', categoryAr: 'تقنية صحية',
+    tags: ['Flutter', 'Pharmacy', 'Healthcare'], color: '#3b9f78', icon: true,
+    image: 'assets/projects/pharamsina.png',
+    enDesc: 'Pharmacy companion — medicine inventory, prescriptions, delivery tracking.',
     arDesc: 'تطبيق صيدلية — مخزون أدوية، وصفات، وتتبع توصيل.',
     links: { play: 'https://play.google.com/store/apps/details?id=com.mustafahameed.pharamsina' }
   },
   {
-    en: 'Go Hlal',
-    ar: 'Go Hlal',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Food', 'Delivery'],
-    color: '#f15e28',
-    enDesc: 'Halal food delivery — restaurant listings, menus, order tracking, and real-time updates.',
-    arDesc: 'توصيل طعام حلال — مطاعم، قوائم، تتبع طلبات، وتحديثات مباشرة.',
-    links: {}
+    en: 'Go Hlal', ar: 'Go Hlal', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Food', 'Delivery'], color: '#f15e28', icon: true,
+    image: 'assets/projects/go-hlal.png',
+    enDesc: 'Food delivery — restaurant listings, menus, order tracking, real-time updates.',
+    arDesc: 'توصيل طعام — مطاعم، قوائم، تتبع طلبات، وتحديثات مباشرة.',
+    links: { appstore: 'https://apps.apple.com/eg/app/go-hlal/id6474274182' }
   },
   {
-    en: 'Paw App',
-    ar: 'Paw App',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Pets', 'Care'],
-    color: '#e38a3d',
-    enDesc: 'Pet care and management — profiles, health tracking, vet appointments, and community.',
+    en: 'Paw App', ar: 'Paw App', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Pets', 'Care'], color: '#e38a3d', icon: true,
+    image: 'assets/projects/paw.png',
+    enDesc: 'Pet care — profiles, health tracking, vet appointments, and community.',
     arDesc: 'رعاية الحيوانات الأليفة — ملفات، تتبع صحة، مواعيد بيطرية، ومجتمع.',
-    links: {
-      play: 'https://play.google.com/store/apps/details?id=com.pawapp.customer'
-    }
+    links: { appstore: 'https://apps.apple.com/eg/app/paw-app/id6474899820' }
   },
   {
-    en: 'Moqim',
-    ar: 'مقيم',
-    type: 'Mobile',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Flutter', 'Real Estate'],
-    color: '#425bc4',
-    enDesc: 'Real estate services — listings, filters, agent connections, and property search.',
-    arDesc: 'خدمات عقارية — إعلانات، فلاتر، تواصل مع وسطاء، وبحث ذكي.',
-    links: {}
+    en: 'Moqim', ar: 'مقيم', type: 'Mobile', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Flutter', 'Real Estate'], color: '#425bc4', icon: true,
+    image: 'assets/projects/moqim.png',
+    enDesc: 'Real estate services — listings, filters, agent connections, property search.',
+    arDesc: 'خدمات عقارية — إعلانات، فلاتر، تواصل مع وسطاء، وبحث.',
+    links: { play: 'https://play.google.com/store/apps/details?id=com.moqim' }
   },
   {
-    en: 'Orbit Dimension',
-    ar: 'Orbit Dimension',
-    type: 'Web',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['E-commerce', 'Beauty', 'Global'],
-    color: '#8759e5',
+    en: 'Orbit Dimension', ar: 'Orbit Dimension', type: 'Web', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['E-commerce', 'Beauty', 'Global'], color: '#8759e5',
     image: 'assets/projects/orbit-dimension.png',
-    enDesc: 'Beauty and personal care e-commerce — skincare, makeup, fragrance, offers, and multi-language shopping.',
-    arDesc: 'تجارة إلكترونية للعناية والجمال — بشرة، مكياج، عطور، عروض، وتعدد لغات.',
+    enDesc: 'Beauty and personal care e-commerce — skincare, makeup, fragrance, multi-language.',
+    arDesc: 'تجارة إلكترونية للعناية والجمال — بشرة، مكياج، عطور، وتعدد لغات.',
     links: { web: 'https://orbitdimension.online/' }
   },
   {
-    en: '365 Sport AT',
-    ar: '365 Sport AT',
-    type: 'Web',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Sports', 'Live Scores'],
-    color: '#ee5459',
+    en: '365 Sport AT', ar: '365 Sport AT', type: 'Web', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Sports', 'Live Scores'], color: '#ee5459',
     image: 'assets/projects/sport-365.png',
-    enDesc: 'Sports platform for live scores, fixtures, player stats, highlights, and real-time news.',
+    enDesc: 'Sports platform for live scores, fixtures, player stats, and news.',
     arDesc: 'منصة رياضية للنتائج المباشرة والجداول وإحصائيات اللاعبين والأخبار.',
     links: { web: 'https://365sportat.app/' }
   },
   {
-    en: 'Fawzy Al Attar',
-    ar: 'فوزي العطار',
-    type: 'Web',
-    category: 'Web',
-    categoryAr: 'ويب',
-    tags: ['Website', 'Brand'],
-    color: '#c46d52',
+    en: 'Fawzy Al Attar', ar: 'فوزي العطار', type: 'Web', category: 'Web', categoryAr: 'ويب',
+    tags: ['Website', 'Brand'], color: '#c46d52',
     image: 'assets/projects/fawzy-al-attar.png',
-    enDesc: 'Professional personal brand website — about, services, portfolio, and contact.',
+    enDesc: 'Professional personal brand website — about, services, portfolio, contact.',
     arDesc: 'موقع احترافي للعلامة الشخصية — نبذة، خدمات، أعمال، وتواصل.',
     links: { web: 'http://fawzyalattar.com/' }
   },
   {
-    en: 'Ameen',
-    ar: 'أمين',
-    type: 'Web',
-    category: 'Platform',
-    categoryAr: 'منصة',
-    tags: ['Services', 'Healthcare', 'Education'],
-    color: '#388a8a',
-    enDesc: 'Saudi platform for education and health services with a clean, culturally attuned design.',
+    en: 'Ameen', ar: 'أمين', type: 'Web', category: 'Platform', categoryAr: 'منصة',
+    tags: ['Services', 'Healthcare', 'Education'], color: '#388a8a',
+    enDesc: 'Saudi platform for education and health services with a clean local design.',
     arDesc: 'منصة سعودية لخدمات تعليمية وصحية بتصميم نظيف يناسب الجمهور المحلي.',
-    links: {}
+    links: { web: 'https://ameen.svg.sa' }
   },
   {
-    en: 'Fine Gold Kuwait',
-    ar: 'فاين جولد الكويت',
-    type: 'Web',
-    category: 'E-commerce',
-    categoryAr: 'تجارة إلكترونية',
-    tags: ['Gold', 'Investment', 'Arabic'],
-    color: '#b88924',
+    en: 'Fine Gold Kuwait', ar: 'فاين جولد الكويت', type: 'Web', category: 'E-commerce', categoryAr: 'تجارة إلكترونية',
+    tags: ['Gold', 'Investment', 'Arabic'], color: '#b88924',
     image: 'assets/projects/fine-gold.png',
-    enDesc: 'Kuwait gold and precious-metals trading — luxury browsing, pricing, and Arabic support.',
-    arDesc: 'تجارة ذهب ومعادن ثمينة في الكويت — تصفح فاخر، أسعار، ودعم عربي.',
+    enDesc: 'Kuwait gold and precious-metals trading — luxury browsing and Arabic support.',
+    arDesc: 'تجارة ذهب ومعادن ثمينة في الكويت — تصفح فاخر ودعم عربي.',
     links: { web: 'https://www.finegoldkwt.com/ar' }
   },
   {
-    en: 'SHAL',
-    ar: 'SHAL',
-    type: 'Web',
-    category: 'Web',
-    categoryAr: 'ويب',
-    tags: ['Digital', 'Consulting', 'IT'],
-    color: '#6b36ff',
+    en: 'SHAL', ar: 'SHAL', type: 'Web', category: 'Web', categoryAr: 'ويب',
+    tags: ['Digital', 'Consulting', 'IT'], color: '#6b36ff',
     image: 'assets/projects/shal.png',
-    enDesc: 'Digital solutions company site — software, consulting, case studies, and transformation services.',
-    arDesc: 'موقع حلول رقمية — تطوير برمجي، استشارات، دراسات حالة، وتحول رقمي.',
+    enDesc: 'Digital solutions company site — software, consulting, and IT services.',
+    arDesc: 'موقع حلول رقمية — تطوير برمجي، استشارات، وتحول رقمي.',
     links: { web: 'https://shal.cc/' }
   }
 ];
@@ -514,7 +423,8 @@ function projectLinks(p) {
 function projectVisual(p) {
   const cat = lang === 'ar' ? p.categoryAr : p.category;
   if (p.image) {
-    return `<div class="project-visual has-image"><img src="${p.image}" alt="${lang === 'ar' ? p.ar : p.en}" loading="lazy" /><span class="project-category">${cat}</span></div>`;
+    const iconClass = p.icon ? ' icon' : '';
+    return `<div class="project-visual has-image${iconClass}" style="${p.icon ? `--accent:${p.color}` : ''}"><img src="${p.image}" alt="${lang === 'ar' ? p.ar : p.en}" loading="lazy" /><span class="project-category">${cat}</span></div>`;
   }
   return `<div class="project-visual phone-mock" style="--accent:${p.color}"><div class="phone-frame"><span class="project-symbol">${(p.en || '?').slice(0, 1)}</span></div><span class="project-category">${cat}</span></div>`;
 }

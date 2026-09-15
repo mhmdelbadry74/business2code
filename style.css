@@ -699,8 +699,21 @@ h2 em { color: var(--violet); font-style: normal; }
   object-fit: cover;
   transition: transform .45s ease;
 }
-.project:hover .project-visual.has-image img {
+.project-visual.has-image.icon {
+  background: linear-gradient(160deg, color-mix(in srgb, var(--accent, #6b36ff) 35%, #fff), #efeafc);
+}
+.project-visual.has-image.icon img {
+  width: min(118px, 46%);
+  height: min(118px, 46%);
+  object-fit: contain;
+  border-radius: 26px;
+  box-shadow: 0 14px 30px #130b3120;
+}
+.project:hover .project-visual.has-image:not(.icon) img {
   transform: scale(1.04);
+}
+.project:hover .project-visual.has-image.icon img {
+  transform: scale(1.06);
 }
 .project-visual:after {
   content: '';
