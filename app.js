@@ -5,17 +5,11 @@ const translations = {
     'nav.work': 'أعمالنا',
     'nav.faq': 'أسئلة',
     'nav.contact': 'تواصل',
-    'nav.cta': 'لنبدأ مشروعك ↗',
+    'nav.cta': 'لنبدأ مشروعك <span>↗</span>',
     'trust.products': 'منتجًا ومنصة',
     'trust.downloads': 'تحميل على تطبيقات تعليمية',
     'trust.sectors': 'قطاعات نخدمها',
     'trust.founded': 'تأسست في مصر',
-    'why.label': 'لماذا نحن',
-    'why.title': 'شريك واحد<br>من الفكرة إلى <em>الأثر.</em>',
-    'why.text': 'نبني ونُطلق ونساعد منتجك على النمو — بنفس الفريق وبنفس الوضوح.',
-    'industries.label': 'القطاعات',
-    'industries.title': 'خبرة عبر<br><em>أسواق حقيقية.</em>',
-    'industries.text': 'من التعليم والصحة إلى التجارة واللوجستيات — منتجات أُطلقت لمستخدمين فعليين.',
     'faq.label': 'أسئلة شائعة',
     'faq.title': 'إجابات واضحة<br>قبل أن <em>نبدأ.</em>',
     'contact.note': 'احجز مكالمة سريعة عبر واتساب أو أرسل تفاصيل مشروعك من النموذج.',
@@ -26,25 +20,15 @@ const translations = {
     'hero.secondary': 'استكشف أعمالنا <span>↓</span>',
     'hero.stat': 'منتجًا ومنصة أُطلقت',
     'about.label': 'من نحن',
-    'about.title': 'شريك تقني<br>يُفكّر <em>كمالك المنتج.</em>',
+    'about.title': 'شريك واحد<br>من الفكرة إلى <em>الأثر.</em>',
     'about.text': 'في business2code نقدم حلولًا برمجية وتسويقية متكاملة. نبني تطبيقات ومواقع مخصصة وفق احتياجك، ونساعدك على الوصول لجمهورك وتنمية حضورك الرقمي من مصر إلى المنطقة.',
-    'about.link': 'اكتشف كيف نعمل <span>↙</span>',
-    'about.one.title': 'وضوح قبل كل شيء',
-    'about.one.text': 'قرارات مدروسة، تواصل مباشر، وخطة يمكن للجميع فهمها.',
-    'about.two.title': 'جودة قابلة للتوسع',
-    'about.two.text': 'أسس هندسية نظيفة تنمو مع منتجك وأعمالك.',
-    'about.three.title': 'نركز على الأثر',
-    'about.three.text': 'كل ميزة تُبنى لتخدم هدفًا حقيقيًا ومستخدمًا حقيقيًا.',
+    'about.link': 'لنبدأ مشروعك <span>↙</span>',
     'about.meta': 'تأسست 2024 · مصر',
     'services.label': 'ما الذي نبنيه',
     'services.title': 'من شرارة الفكرة<br>إلى <em>واقع رقمي.</em>',
     'services.text': 'تطوير مخصص وتسويق رقمي؛ من أول سؤال وحتى الإطلاق.',
     'process.label': 'طريقتنا',
     'process.title': 'فكرة واضحة.<br><em>تسليم أقوى.</em>',
-    'products.label': 'قادم قريبًا',
-    'products.title': 'نبني منتجات<br>خاصة <em>بنا أيضًا.</em>',
-    'products.text': 'إلى جانب عمل العملاء، نطوّر حلولًا رقمية داخلية. سجّل اهتمامك وكن من أوائل من يعرف عند الإطلاق.',
-    'products.link': 'أخبرنا أنك مهتم <span>↙</span>',
     'work.label': 'أعمال مختارة',
     'work.title': 'أفكار صنعت<br><em>فرقًا.</em>',
     'work.text': 'مجموعة من المنتجات والمنصات التي صنعناها مع شركاء طموحين.',
@@ -71,17 +55,11 @@ const translations = {
     'nav.work': 'Work',
     'nav.faq': 'FAQ',
     'nav.contact': 'Contact',
-    'nav.cta': 'Start a project ↗',
+    'nav.cta': 'Start a project <span>↗</span>',
     'trust.products': 'products & platforms',
     'trust.downloads': 'downloads on education apps',
     'trust.sectors': 'industries we serve',
     'trust.founded': 'founded in Egypt',
-    'why.label': 'Why us',
-    'why.title': 'One partner<br>from idea to <em>impact.</em>',
-    'why.text': 'We build, launch, and help your product grow — with the same team and the same clarity.',
-    'industries.label': 'Industries',
-    'industries.title': 'Experience across<br><em>real markets.</em>',
-    'industries.text': 'From education and health to commerce and logistics — products shipped to real users.',
     'faq.label': 'FAQ',
     'faq.title': 'Clear answers<br>before we <em>start.</em>',
     'contact.note': 'Book a quick WhatsApp call or send your project details through the form.',
@@ -92,25 +70,15 @@ const translations = {
     'hero.secondary': 'Explore our work <span>↓</span>',
     'hero.stat': 'products & platforms launched',
     'about.label': 'Who we are',
-    'about.title': 'A tech partner<br>that thinks <em>like an owner.</em>',
+    'about.title': 'One partner<br>from idea to <em>impact.</em>',
     'about.text': 'business2code is your destination for software solutions and marketing services. We specialize in bespoke mobile apps and websites, and we help brands grow their online presence — from Egypt across the region.',
-    'about.link': 'See how we work <span>↙</span>',
-    'about.one.title': 'Clarity first',
-    'about.one.text': 'Thoughtful decisions, direct communication, and a plan everyone can understand.',
-    'about.two.title': 'Quality that scales',
-    'about.two.text': 'Clean engineering foundations that grow with your product and business.',
-    'about.three.title': 'Built for impact',
-    'about.three.text': 'Every feature exists to serve a real goal and a real user.',
+    'about.link': 'Start a project <span>↙</span>',
     'about.meta': 'Founded 2024 · Egypt',
     'services.label': 'What we build',
     'services.title': 'From a spark of an idea<br>to a <em>digital reality.</em>',
     'services.text': 'Custom development and digital marketing — from the first question through launch.',
     'process.label': 'Our way',
     'process.title': 'Clear thinking.<br><em>Stronger delivery.</em>',
-    'products.label': 'Coming soon',
-    'products.title': 'We also build<br>products of <em>our own.</em>',
-    'products.text': 'Alongside client work, we develop internal digital products. Share your interest and be among the first to know at launch.',
-    'products.link': 'Tell us you are interested <span>↙</span>',
     'work.label': 'Selected work',
     'work.title': 'Ideas that made<br><em>a difference.</em>',
     'work.text': 'A collection of products and platforms we made with ambitious partners.',
@@ -372,15 +340,15 @@ function renderWhy() {
   const el = $('#why-grid');
   if (!el) return;
   el.innerHTML = whyPoints.map((w) =>
-    `<article class="why-card reveal"><strong>${w[0]}</strong><h3>${lang === 'ar' ? w[2] : w[1]}</h3><p>${lang === 'ar' ? w[4] : w[3]}</p></article>`
+    `<article class="reveal"><span>${w[0]}</span><h3>${lang === 'ar' ? w[2] : w[1]}</h3><p>${lang === 'ar' ? w[4] : w[3]}</p></article>`
   ).join('');
 }
 
 function renderIndustries() {
-  const el = $('#industries-grid');
+  const el = $('#industries-strip');
   if (!el) return;
   el.innerHTML = industries.map((i) =>
-    `<article class="industry-card reveal"><span class="industry-icon">${i[0]}</span><h3>${lang === 'ar' ? i[2] : i[1]}</h3><p>${lang === 'ar' ? i[4] : i[3]}</p></article>`
+    `<span class="industry-tag">${i[0]} ${lang === 'ar' ? i[2] : i[1]}</span>`
   ).join('');
 }
 
@@ -402,8 +370,8 @@ function renderSteps() {
 }
 
 function renderFilters() {
-  const fs = ['All', 'Mobile', 'Web', 'EdTech', 'HealthTech', 'E-commerce'];
-  const labels = { All: 'الكل', Mobile: 'موبايل', Web: 'ويب', EdTech: 'EdTech', HealthTech: 'HealthTech', 'E-commerce': 'E-commerce' };
+  const fs = ['All', 'Mobile', 'Web'];
+  const labels = { All: 'الكل', Mobile: 'موبايل', Web: 'ويب' };
   $('#filters').innerHTML = fs.map((f) =>
     `<button class="filter ${f === filter ? 'active' : ''}" data-filter="${f}">${lang === 'ar' ? labels[f] : f}</button>`
   ).join('');
@@ -432,19 +400,20 @@ function projectVisual(p) {
 function renderProjects() {
   const list = filter === 'All'
     ? projects
-    : projects.filter((p) => p.type === filter || p.category === filter);
+    : projects.filter((p) => p.type === filter);
 
   const featured = filter === 'All' ? list.filter((p) => p.featured) : [];
   const rest = filter === 'All' ? list.filter((p) => !p.featured) : list;
 
   const card = (p, i, featuredClass = '') => {
-    const tags = (p.tags || []).map((t) => `<span class="tag">${t}</span>`).join('');
+    const tags = (p.tags || []).slice(0, featuredClass ? 4 : 3).map((t) => `<span class="tag">${t}</span>`).join('');
     const actions = projectLinks(p);
-    return `<article class="project reveal ${featuredClass}" style="transition-delay:${(i % 3) * 0.07}s">
+    const desc = lang === 'ar' ? p.arDesc : p.enDesc;
+    return `<article class="project reveal ${featuredClass}" style="transition-delay:${(i % 3) * 0.06}s">
       ${projectVisual(p)}
       <div class="project-body">
         <h3>${lang === 'ar' ? p.ar : p.en}</h3>
-        <p>${lang === 'ar' ? p.arDesc : p.enDesc}</p>
+        <p class="${featuredClass ? '' : 'project-desc-short'}">${desc}</p>
         <div class="project-tags">${tags}</div>
         ${actions ? `<div class="project-actions">${actions}</div>` : ''}
       </div>
@@ -455,7 +424,9 @@ function renderProjects() {
   if (featured.length) {
     html += `<div class="projects-featured">${featured.map((p, i) => card(p, i, 'featured')).join('')}</div>`;
   }
-  html += rest.map((p, i) => card(p, i)).join('');
+  if (rest.length) {
+    html += `<div class="projects-rest">${rest.map((p, i) => card(p, i)).join('')}</div>`;
+  }
   $('#projects-grid').innerHTML = html;
   observeReveals();
 }
